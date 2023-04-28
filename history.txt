@@ -1,0 +1,685 @@
+    1  pwd
+    2  cls
+    3  ls
+    4  ls -lrth
+    5  cd /mnt
+    6  ls
+    7  cd c
+    8  ls
+    9  cd Users/
+   10  ls
+   11  cd I535105/
+   12  cd git/
+   13  pwd
+   14  mkdir terraform_youtube
+   15  cd terraform_youtube/
+   16  cd ..
+   17  ls
+   18  cd terraform_youtube/
+   19  terraform plan
+   20  cd getting_started/
+   21  terraform plan
+   22  ls
+   23  cd terraform_youtube/
+   24  ls
+   25  cd getting_started/
+   26  ls
+   27  terraform plan
+   28  terraform init
+   29  terraform plan
+   30  terraform apply -auto-approve
+   31  terraform apply -destroy
+   32  history
+   33  terraform workspace list
+   34  terraform login
+   35  terraform init
+   36  terraform apply -auto-approve
+   37  terraform init
+   38  terraform apply -auto-approve
+   39  terraform plan
+   40  terraform init
+   41  terraform plan
+   42  terraform destroy
+   43  terraform plan
+   44  terraform init
+   45  terraform init -reconfigure
+   46  terraform plan
+   47  terraform init
+   48  terraform init -migrate-state
+   49  terraform plan
+   50  terraform apply -auto-approve
+   51  terraform login
+   52  terraform init
+   53  terraform apply
+   54  cat ~./aws
+   55  cd ~./aws
+   56  cd
+   57  ls
+   58  cd aws/
+   59  ls
+   60  cat credentials 
+   61  ls
+   62  cd .
+   63  ls
+   64  cd ..
+   65  ls
+   66  cd terraform_youtube/getting_started/
+   67  ls
+   68  terraform apply
+   69  terraform plan
+   70  terraform init
+   71  terraform plan
+   72  cat ../../aws/credentials 
+   73  terraform apply
+   74  terraform apply - destroy -auto-approve
+   75  terraform apply -destroy -auto-approve
+   76  cd provisioners/
+   77  ls
+   78  cat ./aws
+   79  cd ./aws
+   80  cd ~
+   81  cd ./aws
+   82  cd
+   83  ls
+   84  cd aws/
+   85  ls
+   86  cat credentials 
+   87  cd ..
+   88  ls
+   89  cd terraform_youtube/
+   90  ls
+   91  cd provisioners/
+   92  ls
+   93  terraform init
+   94  ssh-keygen -t rsa
+   95  cd  /home/manu/.ssh/
+   96  ls
+   97  ls -lrth
+   98  chmod 400 terraform
+   99  ls -lrth
+  100  cat terraform.pub
+  101  pwd
+  102  cd ..
+  103  ls
+  104  git clone https://github.com/manuporwal98/Terraform.git
+  105  ls
+  106  mv aws /home/manu/Terraform/
+  107  mv terraform_youtube /home/manu/Terraform/
+  108  ls
+  109  cd Terraform/
+  110  ls
+  111  git status
+  112  git add .
+  113  git commit -m "Terraform"
+  114  git push
+  115  git branch
+  116  git pull
+  117  git push origin main
+  118  git push origin HEAD
+  119  git branch
+  120  ls
+  121  git branch
+  122  git status
+  123  git add .
+  124  git commit -m "Initial Commit"
+  125  pwd
+  126  cd 
+  127  ls
+  128  cd Terraform/
+  129  git config --global user.email "manuporwal98@gmail.com"
+  130  git config --global user.name "Manu"
+  131  git branch
+  132  git status
+  133  git add.
+  134  git add .
+  135  git commit -m "test"
+  136  git push
+  137  df -h
+  138  du -sh
+  139  ls
+  140  cd terraform_youtube/
+  141  ls
+  142  du -sh *
+  143  cd getting_started/
+  144  la
+  145  du -sh *
+  146  ls
+  147  du -sh *
+  148  ls
+  149  cd Downloads
+  150  cd ..
+  151  ls
+  152  ls
+  153  go version
+  154  pwd
+  155  df -h
+  156  cd /mnt/c
+  157  ls
+  158  cd ..
+  159  ls
+  160  cd c
+  161  cd dowloads
+  162  cd Users/
+  163  cd I535105/
+  164  cd go
+  165  ls
+  166  pwd
+  167  sudo rm -rf /home/manu/go && tar -C /mnt/c/Users/I535105/go -xzf go1.20.3.linux-amd64.tar.gz
+  168  go version
+  169  which go
+  170  sudo rm -rf /usr/bin/go && tar -C /mnt/c/Users/I535105/go -xzf go1.20.3.linux-amd64.tar.gz
+  171  go version
+  172  export PATH=$PATH:/usr/local/go/bin
+  173  go version
+  174  sudo apt install golang-go
+  175  which go
+  176  go version
+  177  sudo apt install golang-go
+  178  ls
+  179  which go
+  180  sudo tar -C /usr/local -xvf go1.20.3.linux-amd64.tar.gz 
+  181  sudo nano ~/.profile
+  182  sudo vi ~/.profile
+  183  source ~/.profile
+  184  go version
+  185  ls
+  186  which go
+  187  cd /usr/local/go/bin/go
+  188  cd /usr/local/go/
+  189  ls
+  190  cd bin
+  191  ls
+  192  ls -lrth
+  193  cd ..
+  194  echo $GOPATH
+  195  echo #GOPATH
+  196  $GOPATH
+  197  which go
+  198  echo $PATH
+  199  git clone https://github.com/manuporwal98/golangCLIusingCobra.git
+  200  sudo git clone https://github.com/manuporwal98/golangCLIusingCobra.git
+  201  ls
+  202  ls -lrth
+  203  rm *
+  204  sudo rm *
+  205  sudo rm -rf *
+  206  ls
+  207  go mod init github.com/manuporwal98/golangCLIusingCobra
+  208  cd bin
+  209  sudo tar -C /usr/local -xvf go1.20.3.linux-amd64.tar.gz 
+  210  cd ../../..
+  211  ls
+  212  curl -OL https://golang.org/dl/go1.20.3.linux-amd64.tar.gz
+  213  sudo curl -OL https://golang.org/dl/go1.20.3.linux-amd64.tar.gz
+  214  ls
+  215  sudo tar -C /usr/local -xvf go1.20.3.linux-amd64.tar.gz 
+  216  sudo vi ~/.profile
+  217  go version
+  218  cd /usr/local/go/
+  219  ls
+  220  git clone https://github.com/manuporwal98/golangCLIusingCobra.git
+  221  sudo git clone https://github.com/manuporwal98/golangCLIusingCobra.git
+  222  ls
+  223  cd golangCLIusingCobra/
+  224  ls
+  225  rm LICENSE go.mod go.sum main.go 
+  226  sudo rm LICENSE go.mod go.sum main.go 
+  227  ls
+  228  rm -rf cmd
+  229  sudo rm -rf cmd
+  230  go mod init github.com/manuporwal98/golangCLIusingCobra
+  231  sudo go mod init github.com/manuporwal98/golangCLIusingCobra
+  232  ls
+  233  sudo go mod init github.com/manuporwal98/golangCLIusingCobra
+  234  which go
+  235  go version
+  236  go mod init github.com/manuporwal98/golangCLIusingCobra
+  237  ls
+  238  ls -lrth
+  239  ls -a
+  240  go mod init github.com/manuporwal98/golangCLIusingCobra
+  241  sudo go mod init github.com/manuporwal98/golangCLIusingCobra
+  242  ls
+  243  which go
+  244  cd github.com/manuporwal98/golangCLIusingCobra
+  245  cd /usr/local/go/
+  246  ls
+  247  cd bin
+  248  ls
+  249  cd ..
+  250  cd golangCLIusingCobra/
+  251  ls
+  252  cd ..
+  253  ls
+  254  git clone
+  255  clear
+  256  sudo git clone https://github.com/manuporwal98/Stringer_Cobra.git
+  257  cd Stringer_Cobra/
+  258  go mod init github.com/manuporwal98/Stringer_Cobra
+  259  sudo go mod init github.com/manuporwal98/Stringer_Cobra
+  260  sudo visudo
+  261  sudo vi visudo
+  262  sudo visudo
+  263  sudo go mod init github.com/manuporwal98/Stringer_Cobra
+  264  ls
+  265  mkdir -p cmd/stringer
+  266  sudo mkdir -p cmd/stringer
+  267  sudo mkdir -p pkg/stringer
+  268  sudo touch cmd/stringer/root.go
+  269  touch pkg/stringer/stringer.go
+  270  sudo touch pkg/stringer/stringer.go
+  271  sudo touch main.go
+  272  sudo go get -u github.com/spf13/cobra@latest
+  273  code .
+  274  sudo go install -v golang.org/x/tools/cmd/goimports@latest
+  275  sudo find /home/ -type d -user root -exec sudo chown -R $USER: {}  \;
+  276  ls
+  277  pwd
+  278  sudo find /usr/local/go/Stringer_Cobra/ -type d -user root -exec sudo chown -R $USER: {}  \;
+  279  ls
+  280  ls -lrth
+  281  history
+  282  go run main.go --help
+  283  sudo touch cmd/stringer/reverse.go
+  284  sudo touch cmd/stringer/inspect.go
+  285  sudo go install -v golang.org/x/tools/cmd/guru@latest
+  286  ls
+  287  git add .
+  288  git commit -m "Implementing Stringer CLI"
+  289  git push
+  290  git remote set-url origin git@github.com:manuporwal98/golangCLIusingCobra.git
+  291  git remote -v
+  292  git push
+  293  sudo git push
+  294  git remote set-url origin https://github.com/manuporwal98/golangCLIusingCobra.git
+  295  git remote -v
+  296  git push
+  297  cd ..
+  298  ssh-keygen
+  299  cd /home/manu/
+  300  ls
+  301  cd .ssh
+  302  ls
+  303  cat id_rsa.pub 
+  304  git config remote.origin.url git+ssh://git@github.com/manuporwal98/golangCLIusingCobra.git
+  305  cd /usr/
+  306  which go
+  307  cd local/go/
+  308  ls
+  309  cd Stringer_Cobra/
+  310  git config remote.origin.url git+ssh://git@github.com/manuporwal98/golangCLIusingCobra.git
+  311  git config -l
+  312  git push
+  313  git add .
+  314  gir commit -m "Implementing stringer CLI"
+  315  git commit -m "Implementing stringer CLI"
+  316  git push
+  317  git push --force
+  318  cd ..
+  319  ls
+  320  cd Stringer_Cobra/
+  321  ls
+  322  cd ..
+  323  cd golangCLIusingCobra/
+  324  ls
+  325  cd ..
+  326  cd Stringer_Cobra/
+  327  ls
+  328  cd cmd
+  329  ls
+  330  cd ..
+  331  git add .
+  332  gir commit -m "Test"
+  333  git commit -m "Test"
+  334  git push
+  335  git pull
+  336  ls
+  337  git add .
+  338  git commit -m "Test"
+  339  git push
+  340  history
+  341  history >>history.txt
+    1  pwd
+    2  cls
+    3  ls
+    4  ls -lrth
+    5  cd /mnt
+    6  ls
+    7  cd c
+    8  ls
+    9  cd Users/
+   10  ls
+   11  cd I535105/
+   12  cd git/
+   13  pwd
+   14  mkdir terraform_youtube
+   15  cd terraform_youtube/
+   16  cd ..
+   17  ls
+   18  cd terraform_youtube/
+   19  terraform plan
+   20  cd getting_started/
+   21  terraform plan
+   22  ls
+   23  cd terraform_youtube/
+   24  ls
+   25  cd getting_started/
+   26  ls
+   27  terraform plan
+   28  terraform init
+   29  terraform plan
+   30  terraform apply -auto-approve
+   31  terraform apply -destroy
+   32  history
+   33  terraform workspace list
+   34  terraform login
+   35  terraform init
+   36  terraform apply -auto-approve
+   37  terraform init
+   38  terraform apply -auto-approve
+   39  terraform plan
+   40  terraform init
+   41  terraform plan
+   42  terraform destroy
+   43  terraform plan
+   44  terraform init
+   45  terraform init -reconfigure
+   46  terraform plan
+   47  terraform init
+   48  terraform init -migrate-state
+   49  terraform plan
+   50  terraform apply -auto-approve
+   51  terraform login
+   52  terraform init
+   53  terraform apply
+   54  cat ~./aws
+   55  cd ~./aws
+   56  cd
+   57  ls
+   58  cd aws/
+   59  ls
+   60  cat credentials 
+   61  ls
+   62  cd .
+   63  ls
+   64  cd ..
+   65  ls
+   66  cd terraform_youtube/getting_started/
+   67  ls
+   68  terraform apply
+   69  terraform plan
+   70  terraform init
+   71  terraform plan
+   72  cat ../../aws/credentials 
+   73  terraform apply
+   74  terraform apply - destroy -auto-approve
+   75  terraform apply -destroy -auto-approve
+   76  cd provisioners/
+   77  ls
+   78  cat ./aws
+   79  cd ./aws
+   80  cd ~
+   81  cd ./aws
+   82  cd
+   83  ls
+   84  cd aws/
+   85  ls
+   86  cat credentials 
+   87  cd ..
+   88  ls
+   89  cd terraform_youtube/
+   90  ls
+   91  cd provisioners/
+   92  ls
+   93  terraform init
+   94  ssh-keygen -t rsa
+   95  cd  /home/manu/.ssh/
+   96  ls
+   97  ls -lrth
+   98  chmod 400 terraform
+   99  ls -lrth
+  100  cat terraform.pub
+  101  pwd
+  102  cd ..
+  103  ls
+  104  git clone https://github.com/manuporwal98/Terraform.git
+  105  ls
+  106  mv aws /home/manu/Terraform/
+  107  mv terraform_youtube /home/manu/Terraform/
+  108  ls
+  109  cd Terraform/
+  110  ls
+  111  git status
+  112  git add .
+  113  git commit -m "Terraform"
+  114  git push
+  115  git branch
+  116  git pull
+  117  git push origin main
+  118  git push origin HEAD
+  119  git branch
+  120  ls
+  121  git branch
+  122  git status
+  123  git add .
+  124  git commit -m "Initial Commit"
+  125  pwd
+  126  cd 
+  127  ls
+  128  cd Terraform/
+  129  git config --global user.email "manuporwal98@gmail.com"
+  130  git config --global user.name "Manu"
+  131  git branch
+  132  git status
+  133  git add.
+  134  git add .
+  135  git commit -m "test"
+  136  git push
+  137  df -h
+  138  du -sh
+  139  ls
+  140  cd terraform_youtube/
+  141  ls
+  142  du -sh *
+  143  cd getting_started/
+  144  la
+  145  du -sh *
+  146  ls
+  147  du -sh *
+  148  ls
+  149  cd Downloads
+  150  cd ..
+  151  ls
+  152  ls
+  153  go version
+  154  pwd
+  155  df -h
+  156  cd /mnt/c
+  157  ls
+  158  cd ..
+  159  ls
+  160  cd c
+  161  cd dowloads
+  162  cd Users/
+  163  cd I535105/
+  164  cd go
+  165  ls
+  166  pwd
+  167  sudo rm -rf /home/manu/go && tar -C /mnt/c/Users/I535105/go -xzf go1.20.3.linux-amd64.tar.gz
+  168  go version
+  169  which go
+  170  sudo rm -rf /usr/bin/go && tar -C /mnt/c/Users/I535105/go -xzf go1.20.3.linux-amd64.tar.gz
+  171  go version
+  172  export PATH=$PATH:/usr/local/go/bin
+  173  go version
+  174  sudo apt install golang-go
+  175  which go
+  176  go version
+  177  sudo apt install golang-go
+  178  ls
+  179  which go
+  180  sudo tar -C /usr/local -xvf go1.20.3.linux-amd64.tar.gz 
+  181  sudo nano ~/.profile
+  182  sudo vi ~/.profile
+  183  source ~/.profile
+  184  go version
+  185  ls
+  186  which go
+  187  cd /usr/local/go/bin/go
+  188  cd /usr/local/go/
+  189  ls
+  190  cd bin
+  191  ls
+  192  ls -lrth
+  193  cd ..
+  194  echo $GOPATH
+  195  echo #GOPATH
+  196  $GOPATH
+  197  which go
+  198  echo $PATH
+  199  git clone https://github.com/manuporwal98/golangCLIusingCobra.git
+  200  sudo git clone https://github.com/manuporwal98/golangCLIusingCobra.git
+  201  ls
+  202  ls -lrth
+  203  rm *
+  204  sudo rm *
+  205  sudo rm -rf *
+  206  ls
+  207  go mod init github.com/manuporwal98/golangCLIusingCobra
+  208  cd bin
+  209  sudo tar -C /usr/local -xvf go1.20.3.linux-amd64.tar.gz 
+  210  cd ../../..
+  211  ls
+  212  curl -OL https://golang.org/dl/go1.20.3.linux-amd64.tar.gz
+  213  sudo curl -OL https://golang.org/dl/go1.20.3.linux-amd64.tar.gz
+  214  ls
+  215  sudo tar -C /usr/local -xvf go1.20.3.linux-amd64.tar.gz 
+  216  sudo vi ~/.profile
+  217  go version
+  218  cd /usr/local/go/
+  219  ls
+  220  git clone https://github.com/manuporwal98/golangCLIusingCobra.git
+  221  sudo git clone https://github.com/manuporwal98/golangCLIusingCobra.git
+  222  ls
+  223  cd golangCLIusingCobra/
+  224  ls
+  225  rm LICENSE go.mod go.sum main.go 
+  226  sudo rm LICENSE go.mod go.sum main.go 
+  227  ls
+  228  rm -rf cmd
+  229  sudo rm -rf cmd
+  230  go mod init github.com/manuporwal98/golangCLIusingCobra
+  231  sudo go mod init github.com/manuporwal98/golangCLIusingCobra
+  232  ls
+  233  sudo go mod init github.com/manuporwal98/golangCLIusingCobra
+  234  which go
+  235  go version
+  236  go mod init github.com/manuporwal98/golangCLIusingCobra
+  237  ls
+  238  ls -lrth
+  239  ls -a
+  240  go mod init github.com/manuporwal98/golangCLIusingCobra
+  241  sudo go mod init github.com/manuporwal98/golangCLIusingCobra
+  242  ls
+  243  which go
+  244  cd github.com/manuporwal98/golangCLIusingCobra
+  245  cd /usr/local/go/
+  246  ls
+  247  cd bin
+  248  ls
+  249  cd ..
+  250  cd golangCLIusingCobra/
+  251  ls
+  252  cd ..
+  253  ls
+  254  git clone
+  255  clear
+  256  sudo git clone https://github.com/manuporwal98/Stringer_Cobra.git
+  257  cd Stringer_Cobra/
+  258  go mod init github.com/manuporwal98/Stringer_Cobra
+  259  sudo go mod init github.com/manuporwal98/Stringer_Cobra
+  260  sudo visudo
+  261  sudo vi visudo
+  262  sudo visudo
+  263  sudo go mod init github.com/manuporwal98/Stringer_Cobra
+  264  ls
+  265  mkdir -p cmd/stringer
+  266  sudo mkdir -p cmd/stringer
+  267  sudo mkdir -p pkg/stringer
+  268  sudo touch cmd/stringer/root.go
+  269  touch pkg/stringer/stringer.go
+  270  sudo touch pkg/stringer/stringer.go
+  271  sudo touch main.go
+  272  sudo go get -u github.com/spf13/cobra@latest
+  273  code .
+  274  sudo go install -v golang.org/x/tools/cmd/goimports@latest
+  275  sudo find /home/ -type d -user root -exec sudo chown -R $USER: {}  \;
+  276  ls
+  277  pwd
+  278  sudo find /usr/local/go/Stringer_Cobra/ -type d -user root -exec sudo chown -R $USER: {}  \;
+  279  ls
+  280  ls -lrth
+  281  history
+  282  go run main.go --help
+  283  sudo touch cmd/stringer/reverse.go
+  284  sudo touch cmd/stringer/inspect.go
+  285  sudo go install -v golang.org/x/tools/cmd/guru@latest
+  286  ls
+  287  git add .
+  288  git commit -m "Implementing Stringer CLI"
+  289  git push
+  290  git remote set-url origin git@github.com:manuporwal98/golangCLIusingCobra.git
+  291  git remote -v
+  292  git push
+  293  sudo git push
+  294  git remote set-url origin https://github.com/manuporwal98/golangCLIusingCobra.git
+  295  git remote -v
+  296  git push
+  297  cd ..
+  298  ssh-keygen
+  299  cd /home/manu/
+  300  ls
+  301  cd .ssh
+  302  ls
+  303  cat id_rsa.pub 
+  304  git config remote.origin.url git+ssh://git@github.com/manuporwal98/golangCLIusingCobra.git
+  305  cd /usr/
+  306  which go
+  307  cd local/go/
+  308  ls
+  309  cd Stringer_Cobra/
+  310  git config remote.origin.url git+ssh://git@github.com/manuporwal98/golangCLIusingCobra.git
+  311  git config -l
+  312  git push
+  313  git add .
+  314  gir commit -m "Implementing stringer CLI"
+  315  git commit -m "Implementing stringer CLI"
+  316  git push
+  317  git push --force
+  318  cd ..
+  319  ls
+  320  cd Stringer_Cobra/
+  321  ls
+  322  cd ..
+  323  cd golangCLIusingCobra/
+  324  ls
+  325  cd ..
+  326  cd Stringer_Cobra/
+  327  ls
+  328  cd cmd
+  329  ls
+  330  cd ..
+  331  git add .
+  332  gir commit -m "Test"
+  333  git commit -m "Test"
+  334  git push
+  335  git pull
+  336  ls
+  337  git add .
+  338  git commit -m "Test"
+  339  git push
+  340  history
+  341  history >>history.txt
+  342  ls
+  343  history >>/usr/local/go/Stringer_Cobra
+  344  history >>/usr/local/go/Stringer_Cobra/history.txt
